@@ -136,7 +136,7 @@ class GamePage extends Component {
 
   endGame(winner) {
     this.setState({
-      makingSelections: false,
+      makingSelection: false,
       gameComplete: true,
       gameWinner: winner
     })
@@ -148,7 +148,6 @@ class GamePage extends Component {
     if (this.mounted) {
       if (newRound < 6) {
         this.setState({ round: newRound, makingSelection: true })
-        this.forceUpdate()
         if (this.props.gameType === CPU_VS_CPU) {
           this.simulateCpuChoices()
         }
@@ -156,6 +155,7 @@ class GamePage extends Component {
         if (checkWinner !== 'No-one') {
           this.endGame(checkWinner)
         }
+        this.forceUpdate()
       } else {
         let checkWinner = this.checkMatchWinner()
         this.endGame(checkWinner)
