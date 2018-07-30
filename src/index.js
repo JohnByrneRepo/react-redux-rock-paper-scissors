@@ -6,7 +6,6 @@ import { createStore } from 'redux'
 import './index.css'
 import Routes from './routes'
 
-import registerServiceWorker from './registerServiceWorker'
 import rootReducer from './reducers'
 
 const store = createStore(rootReducer)
@@ -17,6 +16,4 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 )
-
-registerServiceWorker()
 
