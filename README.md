@@ -6,10 +6,10 @@ A small web based application that allows you to play best of 5 Rock, Paper, Sci
 
 The application should allow for human vs computer or computer vs computer (simulation) game play.
 
-![alt text](ux/image-1.png?raw=true "Menu"){:width="200px"}
+<img src="ux/image-1.png" width="200" title="Menu">
 
-![alt text](ux/image-2.png?raw=true "Game"){:width="200px"}
+<img src="ux/image-2.png" width="200" title="Game">
 
-![alt text](ux/image-3.png?raw=true "Round complete"){:width="200px"}
+<img src="ux/image-3.png" width="200" title="Round complete">
 
-![alt text](ux/image-4.png?raw=true "Game complete"){:width="200px"}
+<img src="ux/image-4.png" width="200" title="Game complete">
