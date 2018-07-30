@@ -36,7 +36,7 @@ export class RoundComplete extends Component {
           </Row>
           <Row className="show-grid round-complete-row">
             <Col xs={12} md={6}>
-              <div className="selection-button-container pull-right">
+              <div className="selection-button-container">
                 {playerOneChoice === ROCK &&
                   <Button className="game-button"><img alt="icon" src="./images/rock.png"/></Button>
                 }
@@ -51,7 +51,7 @@ export class RoundComplete extends Component {
               </div>
             </Col>
             <Col xs={12} md={6}>
-              <div className="selection-button-container pull-left">
+              <div className="selection-button-container">
                 {playerTwoChoice === ROCK &&
                   <Button className="game-button"><img alt="icon" src="./images/rock.png"/></Button>
                 }

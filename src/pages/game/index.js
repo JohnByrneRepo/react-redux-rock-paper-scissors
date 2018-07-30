@@ -164,7 +164,7 @@ class GamePage extends Component {
   }
 
   clickReturnToMenu() {
-    this.context.router.history.push('/')
+    this.context.router.history.push(process.env.PUBLIC_URL + '/')
   }
 
   render() {
@@ -208,7 +208,7 @@ class GamePage extends Component {
                     </Row>
                     <Row className="show-grid selection-row">
                       <Col xs={12} md={4}>
-                        <div className="selection-button-container pull-right" onClick={(event) => { this.onClick(0) }}>
+                        <div className="selection-button-container" onClick={(event) => { this.onClick(0) }}>
                           <Button className="game-button">
                             <img alt="icon" src="./images/rock.png"/>
                           </Button>
@@ -222,7 +222,7 @@ class GamePage extends Component {
                         </div>
                       </Col>
                       <Col xs={12} md={4}>
-                        <div className="selection-button-container pull-left" onClick={(event) => { this.onClick(2) }}>
+                        <div className="selection-button-container" onClick={(event) => { this.onClick(2) }}>
                           <Button className="game-button">
                             <img alt="icon" src="./images/scissors.png"/>
                           </Button>

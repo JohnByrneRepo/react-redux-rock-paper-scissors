@@ -31,7 +31,7 @@ class MenuPage extends Component {
         </Row>          
         <Row className="show-grid">
           <Col xs={12} md={6}>
-            <div className="start-game-button-container pull-right" onClick={(event) => { this.onClick(PLAYER_VS_CPU) }}>
+            <div className="start-game-button-container" onClick={(event) => { this.onClick(PLAYER_VS_CPU) }}>
               <Button className="start-game-button">
                 <Glyphicon glyph="user" />
                 v
@@ -42,7 +42,7 @@ class MenuPage extends Component {
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <div className="start-game-button pull-left" onClick={(event) => { this.onClick(CPU_VS_CPU) }}>
+            <div className="start-game-button-container" onClick={(event) => { this.onClick(CPU_VS_CPU) }}>
               <Button className="start-game-button">
                 <Glyphicon glyph="hdd" />
                 v

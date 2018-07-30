@@ -9,8 +9,8 @@ export default class Routes extends Component {
       <div>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={MenuPage} />
-            <Route exact path="/game" component={GamePage} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={MenuPage} />
+            <Route exact path={process.env.PUBLIC_URL + '/game'} component={GamePage} />
           </Switch>
         </BrowserRouter>
       </div>
