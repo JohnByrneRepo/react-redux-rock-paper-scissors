@@ -10,4 +10,6 @@ The application should allow for human vs computer or computer vs computer (simu
 
 ![alt text](ux/image-2.png?raw=true "Game")
 
-![alt text](ux/image-3.png?raw=true "Game complete")
+![alt text](ux/image-3.png?raw=true "Round complete")
+
+![alt text](ux/image-4.png?raw=true "Game complete")
