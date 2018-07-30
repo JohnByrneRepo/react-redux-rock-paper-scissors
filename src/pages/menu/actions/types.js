@@ -1,0 +1,2 @@
+export const SELECT_GAME_TYPE = 'SELECT_GAME_TYPE'
+export const RESET_SCORES = 'RESET_SCORES'
